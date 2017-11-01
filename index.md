@@ -33,7 +33,7 @@ jQuery(function($) {
 
 </script>
 
-<div style="height:100px; width:100px; background:#090909" id="field">
+<div style="height:400px; width:400px; background:#A0A0A0; min-height: 400%; min-width: 400%;" id="field">
 <img src="/facepalm.jpg" width="100" height="100" alt="Grey Square" id="img" />
 
 <input type="submit" value="Отправить" onclick="loadImage()">
