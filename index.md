@@ -1,11 +1,7 @@
 # wow11
 
 
-## Some links
 
-[flying text](http://jsfiddle.net/karalamalar/atNva/)
-
-end.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <style>
@@ -19,8 +15,8 @@ end.
 
 jQuery(function($) {
   $('#flying_object').mouseover(function() {
-    var dWidth = $('#field').width() - $('#flying_object').width(), 
-      dHeight = $('#field').height() -  $('#flying_object').height(), 
+    var dWidth = $('#field').width() - 100,
+      dHeight = $('#field').height() - 100,
       nextX = Math.floor(Math.random() * dWidth),
       nextY = Math.floor(Math.random() * dHeight);
     $(this).animate({
@@ -40,3 +36,9 @@ jQuery(function($) {
   </div>
 
 </div>
+
+
+
+## Some links
+
+[flying text](http://jsfiddle.net/karalamalar/atNva/)
