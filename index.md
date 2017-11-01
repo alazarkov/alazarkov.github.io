@@ -9,45 +9,32 @@ end.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <style>
-  div.background {
-    background: url(facepalm.jpg) repeat;
-    border: 2px solid black;
-  }
+#img {
+  position: relative;
+}
 
-  div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity:0.6;
-    filter:alpha(opacity=60); 
-    width: 200px;
-    height: 500px;
-  }
-
-  div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-  }
-  #animation{font-size:20px; margin-top:40px; margin-left:50px;}
 </style>
 
 <script>
 
-function loadImage() {
-console.log("loaded");
-    $("#animation").animate({ marginTop: "300px" }, 1500 ).animate({ marginBottom: "40px" }, 800 );
-}
-console.log("fooo");
+jQuery(function($) {
+  $('#img').mouseover(function() {
+    var dWidth = $(document).width() - 100, // 100 = image width
+      dHeight = $(document).height() - 100, // 100 = image height
+      nextX = Math.floor(Math.random() * dWidth),
+      nextY = Math.floor(Math.random() * dHeight);
+    $(this).animate({
+      left: nextX + 'px',
+      top: nextY + 'px'
+    });
+  });
+});
+
 
 </script>
 
 
-<div onload="loadImage()">
-    <div class="background">
-      <div class="transbox" id="animation">
-          <p>Text to fly in</p>
-       </div>
-    </div>
+<img src="http://aoifeodwyer.com/box/img.gif" width="100" height="100" alt="Grey Square" id="img" />
+
 <input type="submit" value="Отправить" onclick="loadImage()">
 </div>
