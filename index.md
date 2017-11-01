@@ -12,9 +12,7 @@
 </style>
 
 <script>
-
-jQuery(function($) {
-  $('#flying_object').mouseover(function() {
+function move1() {
     var dWidth = $('#field').width() - 100,
       dHeight = $('#field').height() - 100,
       nextX = Math.floor(Math.random() * dWidth),
@@ -23,7 +21,10 @@ jQuery(function($) {
       left: nextX + 'px',
       top: nextY + 'px'
     });
-  });
+  }
+  
+jQuery(function($) {
+  $('#flying_object').mouseover(move1);
 });
 
 
