@@ -6,7 +6,7 @@ dfsdf
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <style>
   div.background {
-    background: url(banner.jpg) repeat;
+    background: url(facepalm.jpg) repeat;
     border: 2px solid black;
   }
 
