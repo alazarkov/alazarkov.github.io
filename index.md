@@ -19,8 +19,8 @@ end.
 
 jQuery(function($) {
   $('#img').mouseover(function() {
-    var dWidth = $(document).width() - 100, // 100 = image width
-      dHeight = $(document).height() - 100, // 100 = image height
+    var dWidth = $('#field').width() - 100, // 100 = image width
+      dHeight = $('#field').height() - 100, // 100 = image height
       nextX = Math.floor(Math.random() * dWidth),
       nextY = Math.floor(Math.random() * dHeight);
     $(this).animate({
@@ -33,7 +33,7 @@ jQuery(function($) {
 
 </script>
 
-<div style="height:100px; width:100px; background:#090909">
+<div style="height:100px; width:100px; background:#090909" id="field">
 <img src="/facepalm.jpg" width="100" height="100" alt="Grey Square" id="img" />
 
 <input type="submit" value="Отправить" onclick="loadImage()">
