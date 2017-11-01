@@ -28,10 +28,12 @@ jQuery(function($) {
 </script>
 
 <div style="height:400px; width:600px; background:#A0A0A0; min-height: 400px; min-width: 600px;" id="field">
-  <div id="flying_object" class="my-0">
-    <img src="facepalm.jpg" width="100" height="100" alt="Grey Square" />
-    <p align="center" >Сашка - учи программирование!</p>
-    <p align="center" > <a>Нажми сюда</a></p>
+  <div id="flying_object" width="100px" height="100px>
+    <span class="my-0">
+      <img src="facepalm.jpg" width="100" height="100" alt="Grey Square" />
+      <p align="center" >Сашка - учи программирование!</p>
+      <p align="center" > <a>Нажми сюда</a></p>
+    </span>
   </div>
 
 </div>
