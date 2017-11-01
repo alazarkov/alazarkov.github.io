@@ -33,8 +33,8 @@ jQuery(function($) {
 
 </script>
 
-<div width="100%" height="400px">
-<img src="http://aoifeodwyer.com/box/img.gif" width="100" height="100" alt="Grey Square" id="img" />
+<div style="height:100px; width:100px; background:#090909">
+<img src="/facepalm.jpg" width="100" height="100" alt="Grey Square" id="img" />
 
 <input type="submit" value="Отправить" onclick="loadImage()">
 </div>
