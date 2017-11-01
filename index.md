@@ -40,4 +40,7 @@ jQuery(function($) {
 
 ## Some links
 
-[flying text](http://jsfiddle.net/karalamalar/atNva/)
+* [flying text](http://jsfiddle.net/karalamalar/atNva/)
+* [more](http://jsfiddle.net/3Z7HE/3/)
+* [and more](http://jsfiddle.net/Xw29r/15/)
+
