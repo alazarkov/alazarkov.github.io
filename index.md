@@ -31,9 +31,10 @@ dfsdf
 <script>
 
 function loadImage() {
+console.log("loaded");
     $("#animation").animate({ marginTop: "300px" }, 1500 ).animate({ marginBottom: "40px" }, 800 );
 }
-
+console.log("fooo");
 
 </script>
 
