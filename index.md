@@ -45,5 +45,5 @@ console.log("fooo");
           <p>Text to fly in</p>
        </div>
     </div>
-
+<input type="submit" value="Отправить" onclick="loadImage()">
 </div>
