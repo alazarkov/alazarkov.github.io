@@ -9,7 +9,7 @@ end.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <style>
-#img {
+#flying_object {
   position: relative;
 }
 
@@ -34,7 +34,9 @@ jQuery(function($) {
 </script>
 
 <div style="height:400px; width:400px; background:#A0A0A0; min-height: 400px; min-width: 400px;" id="field">
-<img src="/facepalm.jpg" width="100" height="100" alt="Grey Square" id="img" />
+  <div id="flying_object">
+    <img src="facepalm.jpg" width="100" height="100" alt="Grey Square" />
+    <p>Сашка</p>
+  </div>
 
-<input type="submit" value="Отправить" onclick="loadImage()">
 </div>
