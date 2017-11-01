@@ -18,7 +18,7 @@ end.
 <script>
 
 jQuery(function($) {
-  $('#img').mouseover(function() {
+  $('#flying_object').mouseover(function() {
     var dWidth = $('#field').width() - 100, // 100 = image width
       dHeight = $('#field').height() - 100, // 100 = image height
       nextX = Math.floor(Math.random() * dWidth),
