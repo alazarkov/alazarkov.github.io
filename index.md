@@ -29,7 +29,7 @@ jQuery(function($) {
 
 <div style="height:400px; width:600px; background:#A0A0A0; min-height: 400px; min-width: 600px;" id="field">
   <div id="flying_object" width="100px" height="100px"  align="center">
-    <span class="my-0">
+    <span class="p-0">
       <img src="facepalm.jpg" width="100" height="100" alt="Grey Square" />
       <p>Сашка - учи программирование!</p>
       <p> <a>Нажми сюда</a></p>
